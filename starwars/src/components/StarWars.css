@@ -1,0 +1,26 @@
+.char {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 14rem;
+    padding: .5rem;
+    line-height: 24px;
+}
+
+.char div {
+    border: 1px solid #443e3e;
+    border-radius: 4px;
+}
+
+.cName {
+    width: 14rem;
+    background-image: linear-gradient(to bottom right, black, #443e3e);
+    color: white; 
+}
+
+.stat {
+    color: #443e3e;
+    text-shadow: 1px 1px 5px #fff;
+    background-image: linear-gradient(to bottom right, gray, white);  
+    width: 49%;
+}
